@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ Pengadaan Barang/Jasa</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #E8F3EF, #D9ECE5);
+    color: #1C2B25;
+}
+
+header {
+     background: linear-gradient(135deg, #0F5132, #198754);
+    padding: 35px 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.08);
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 16px;
+    border: 1px solid #CFE2D9;
+    font-size: 15px;
+    background: #F2FAF7;
+    transition: 0.3s;
+}
+
+.search-box input:focus {
+    outline: none;
+    border: 1px solid #198754;
+    box-shadow: 0 0 0 3px rgba(25,135,84,0.15);
+}
+
+.section {
+    margin-bottom: 45px;
+}
+
+.section h2 {
+    background: #0F5132;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+details {
+    background: #F2FAF7;
+    margin-top: 15px;
+    padding: 18px 24px;
+    border-radius: 18px;
+    border: 1px solid #CFE2D9;
+    box-shadow: 0 4px 18px rgba(15,81,50,0.05);
+    transition: all 0.25s ease;
+}
+
+details:hover {
+    transform: translateY(-3px);
+}
+
+details[open] {
+    border-left: 6px solid #198754;
+    background: #E6F4EE;
+}
+
+summary {
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: linear-gradient(135deg, #198754, #0F5132);
+    color: white;
+    padding: 15px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transition: 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #0F5132;
+    color: white;
+    margin-top: 60px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="Logo Instansi">
+    <h1>FAQ Pengadaan Barang/Jasa Pemerintah</h1>
+</header>
+
+<div class="container">
+
+<div class="search-box">
+<input type="text" id="searchInput" placeholder="Cari pertanyaan..." onkeyup="searchFAQ()">
+</div>
+
+<!-- ================= PERENCANAAN ================= -->
+<div class="section">
+<h2>Perencanaan Pengadaan</h2>
+
+<details><summary>1. Bagaimana cara menyusun RAB yang baik dan benar?</summary>
+<p>Penyusunan RAB disusun dengan cara memasukkan rincian alokasi anggaran yang dibutuhkan untuk setiap kegiatan dalam suatu pekerjaan. RAB sekurang-kurangnya memuat komponen/tahapan, rincian komponen biaya, volume, satuan ukur dari suatu keluaran kegiatan seperti honorarium yang terkait dengan keluaran, bahan, jasa profesi, perjalanan, jumlah volume dan total jumlah biaya.</p>
+</details>
+
+<details><summary>2. Apa saja komponen biaya yang perlu diperhitungkan dalam penyusunan RAB pada pengadaan barang, jasa konsultansi, dan jasa lainnya?</summary>
+<p>Pada pengadaan barang, komponen biaya yang perlu diperhitungkan antara lain: harga barang, biaya pengiriman, biaya instalasi, suku cadang, biaya operasional dan pemeliharaan, biaya pelatihan, biaya tidak langsung lainnya, keuntungan, dan/atau pajak pertambahan nilai. Pada jasa konsultansi terdiri dari biaya langsung personel dan biaya langsung non personel. Pada jasa lainnya terdiri dari upah tenaga kerja, penggunaan bahan/material/peralatan, keuntungan dan biaya tidak langsung, transportasi, dan/atau biaya lain berdasarkan jenis jasa lainnya.</p>
+</details>
+
+<details><summary>3. Bagaimana cara memastikan spesifikasi teknis tidak mengarah pada merek tertentu?</summary>
+<p>Spesifikasi harus berbasis kebutuhan dan kinerja (performance based), bukan pada merek tertentu, kecuali dalam kondisi yang diperbolehkan sesuai ketentuan.</p>
+</details>
+
+<details><summary>4. Apa saja data dan informasi yang dapat digunakan dalam penyusunan spesifikasi teknis?</summary>
+<p>Data dan informasi yang dapat digunakan dalam penyusunan spesifikasi teknis yaitu hasil identifikasi kebutuhan dan tipe/jenis/merk barang/jasa yang dapat ditemukan melalui dokumen identifikasi kebutuhan dan brosur/katalog.</p>
+</details>
+
+<details><summary>5. Bagaimana jika terjadi perubahan kebutuhan setelah RUP diumumkan?</summary>
+<p>Perubahan dimungkinkan sepanjang didukung justifikasi yang jelas dengan alur: perubahan diajukan oleh PPK kepada KPA, jika disetujui oleh KPA maka perubahannya diupload dan diumumkan kembali di SiRUP.</p>
+</details>
+
+</div>
+
+<!-- ================= PERSIAPAN ================= -->
+<div class="section">
+<h2>Persiapan Pengadaan</h2>
+
+<details><summary>1. Bagaimana menentukan metode pemilihan penyedia yang tepat?</summary>
+<p>Metode ditentukan berdasarkan nilai paket, kompleksitas pekerjaan, kondisi pasar, dan ketentuan regulasi yang berlaku.</p>
+</details>
+
+<details><summary>2. Apa saja dokumen yang harus disampaikan oleh PPK ke Biro PBJ untuk memulai proses pemilihan?</summary>
+<p>Dokumen persiapan pengadaan barang/jasa melalui penyedia yang terdiri dari: RUP yang sudah tayang di SiRUP; spesifikasi teknis/KAK; rancangan kontrak; dan HPS. Seluruh dokumen persiapan tersebut harus sudah ditetapkan oleh PPK yang dibuktikan dengan tandatangan oleh PPK.</p>
+</details>
+
+<details><summary>3. Apakah rancangan kontrak dapat diubah saat proses tender sudah dimulai?</summary>
+<p>Perubahan dimungkinkan sepanjang tidak mengubah substansi persaingan dan harus disetujui oleh PPK dan dilakukan adendum dokumen pemilihan.</p>
+</details>
+
+<details><summary>4. Bagaimana menyusun jadwal pemilihan yang realistis?</summary>
+<p>Jadwal mempertimbangkan kompleksitas pekerjaan, waktu evaluasi, masa sanggah, dan potensi kendala teknis. Namun terdapat beberapa tahapan dalam pemilihan yang sudah memiliki syarat durasi tertentu, seperti: 1. Penetapan HPS paling lama 28 (dua puluh delapan) hari kerja sebelum batas akhir untuk: pemasukan penawaran untuk pemilihan dengan pascakualifikasi atau pemasukan dokumen kualifikasi untuk pemilihan dengan prakualifikasi 2. Pengumuman prakualifikasi paling kurang 7 (tujuh) hari kalender; dan tender (pascakualifikasi) paling kurang 5 (lima) hari kalender 3. Masa sanggah selama 5 (lima) hari kalender setelah pengumuman pemenang, diakhiri pada hari dan jam kerja; jawaban sanggah paling lambat 3 (tiga) hari kalender setelah akhir masa sanggah diakhiri pada hari dan jam kerja.</p>
+</details>
+
+<details><summary>5. Apakah boleh melakukan persiapan pengadaan jika belum ada RUP?</summary>
+<p>PPK dapat melakukan persiapan internal berupa penyusunan KAK/Spesifikasi Teknis, penyusunan RAB/HPS, penyusunan rancangan kontrak serta penyiapan jadwal pelaksanaan. Akan tetapi proses pemilihan penyedia oleh UKPBJ belum dapat dilaksanakan sebelum RUP diumumkan melalui SiRUP.</p>
+</details>
+
+</div>
+
+<!-- ================= PEMILIHAN ================= -->
+<div class="section">
+<h2>Pemilihan Penyedia</h2>
+
+<details><summary>1. Bagaimana jika hanya terdapat satu peserta yang memasukkan penawaran pada pengadaan pekerjaan konstruksi metode tender pascakualifikasi?</summary>
+<p>Apabila penawaran yang masuk hanya 1, maka tender dilanjutkan dengan evaluasi administrasi, teknis dan kualifikasi serta apabila memenuhi syarat, maka akan dilanjutkan dengan klarifikasi dan negosiasi teknis dan harga.</p>
+</details>
+
+<details><summary>2. Apakah diperbolehkan melakukan klarifikasi kepada peserta?</summary>
+<p>Klarifikasi diperbolehkan untuk memperjelas dokumen, namun tidak mengubah substansi penawaran.</p>
+</details>
+
+<details><summary>3. Bagaimana menangani sanggahan dari peserta?</summary>
+<p>Sanggahan dijawab secara profesional, objektif, dan sesuai batas waktu yang ditetapkan (3 hari kalender).</p>
+</details>
+
+<details><summary>4. Apa yang harus dilakukan jika ada indikasi persekongkolan pada peserta tender?</summary>
+<p>Peserta yang terindikasi melakukan persekongkolan dikenai sanksi sebagai berikut: pembatalan penetapan pemenang; sanksi daftar hitam; pencairan jaminan penawaran (pada pekerjaan konstruksi); gugatan secara perdata; dan/atau pelaporan secara pidana kepada pihak berwenang.</p>
+</details>
+
+<details><summary>5. Apakah evaluasi boleh dilakukan di luar kriteria dokumen pemilihan?</summary>
+<p>Tidak. Evaluasi harus konsisten dengan kriteria yang telah ditetapkan.</p>
+</details>
+
+</div>
+
+<!-- ================= KONTRAK ================= -->
+<div class="section">
+<h2>Pelaksanaan Kontrak</h2>
+
+<details><summary>1. Apakah PPK dapat menolak hasil pemilihan yang sudah dilaksanakan oleh pokja pemilihan?</summary>
+<p>PPK dapat menolak atau menerima hasil pemilihan pokja pemilihan berdasarkan reviu terhadap laporan hasil pemilihan (LHP). Dalam hal PPK tidak menyetujui hasil pemilihan penyedia, maka PPK menyampaikan penolakan kepada Pokja Pemilihan dengan tembusan kepada Kepala UKPBJ disertai dengan alasan dan bukti. Selanjutnya, PPK dan pokja pemilihan melakukan pembahasan bersama terkait perbedaan pendapat atas hasil pemilihan Penyedia. Jika alasan yang disampaikan terbukti benar, maka pokja pemilihan akan melakukan evaluasi/tender ulang. Apabila setuju dan menerima hasil pemilihan maka PPK menerbitkan surat penunjukan penyedia barang/jasa (SPPBJ) kepada calon penyedia. Dalam hal tidak tercapai kesepakatan, maka pengambilan keputusan atas hasil pemilihan diserahkan kepada PA/KPA paling lambat 6 (enam) hari kerja setelah PPK dan pokja pemilihan tidak mencapai kesepakatan; dan keputusan KPA bersifat final.</p>
+</details>
+
+<details><summary>2. Bagaimana jika penyedia terlambat menyelesaikan pekerjaan?</summary>
+<p>Dalam hal penyedia gagal menyelesaikan pekerjaan sampai masa pelaksanaan Kontrak berakhir, namun Pejabat Penandatangan Kontrak menilai bahwa Penyedia mampu menyelesaikan pekerjaan, Pejabat Penandatangan Kontrak dapat memberikan kesempatan kepada Penyedia untuk menyelesaikan pekerjaan sampai dengan 50 (lima puluh) hari kalender. Dalam hal setelah diberikan kesempatan namun penyedia masih belum dapat menyelesaikan pekerjaan maka Pejabat Penandatangan Kontrak dapat: Memberikan kesempatan kedua untuk penyelesaian sisa pekerjaan dengan jangka waktu sesuai kebutuhan; atau nelakukan pemutusan kontrak dalam hal penyedia dinilai tidak akan sanggup menyelesaikan pekerjaan. Pemberian kesempatan oleh Pejabat Penandatangan Kontrak dituangkan dalam adendum kontrak yang didalamnya mengatur pengenaan sanksi denda keterlambatan kepada Penyedia dan perpanjangan masa berlaku Jaminan Pelaksanaan (apabila ada).</p>
+</details>
+
+<details><summary>3. Apakah pembayaran dapat dilakukan secara bertahap?</summary>
+<p>Pembayaran dapat dilakukan secara bertahap. Pilihan metode pembayaran yang dapat dilakukan yaitu: bulanan; termin; atau sekaligus.</p>
+</details>
+
+<details><summary>4. Bagaimana jika terjadi perubahan ruang lingkup pekerjaan pada saat sudah berkontrak?</summary>
+<p>Perubahan dilakukan melalui mekanisme adendum dengan tetap menjaga prinsip akuntabilitas.</p>
+</details>
+
+<details><summary>5. Siapa yang bertanggung jawab atas pengendalian kontrak?</summary>
+<p>Pengendalian kontrak merupakan tanggung jawab PPK.</p>
+</details>
+
+</div>
+
+<!-- ================= ADMINISTRASI ================= -->
+<div class="section">
+<h2>Administrasi, Pengawasan, dan Kepatuhan</h2>
+
+<details><summary>1. Apakah seluruh proses pengadaan wajib didokumentasikan?</summary>
+<p>Ya, dokumentasi diperlukan untuk menjamin akuntabilitas dan keperluan audit.</p>
+</details>
+
+<details><summary>2. Bagaimana jika terjadi kesalahan administratif dalam dokumen pengadaan pada saat masa pengumuman tender?</summary>
+<p>Kesalahan administratif dapat diperbaiki dengan melakukan addendum pada dokumen pengadaan.</p>
+</details>
+
+<details><summary>3. Apa yang harus dilakukan apabila terjadi konflik kepentingan?</summary>
+<p>Pihak terkait wajib melaporkan dan mengundurkan diri dari proses pengadaan.</p>
+</details>
+
+<details><summary>4. Apakah hasil konsultasi bersifat mengikat?</summary>
+<p>Hasil konsultasi bersifat rekomendatif dan menjadi bahan pertimbangan pejabat berwenang.</p>
+</details>
+
+<details><summary>5. Bagaimana mekanisme pengajuan konsultasi?</summary>
+<p>Permohonan diajukan melalui ikon whatsapp pada laman ini dengan melampirkan dokumen pendukung yang relevan.</p>
+</details>
+
+</div>
+
+</div>
+
+<a class="whatsapp-button" href="https://wa.me/6282277605339" target="_blank">
+Ajukan Jadwal Konsultasi Lebih Lanjut
+</a>
+
+<a class="float-btn" href="LINK_GOOGLE_FORM_PERTANYAAN" target="_blank">
+        Ajukan Pertanyaan
+    </a>
+
+    <a class="float-btn" href="LINK_GOOGLE_FORM_SURVEY" target="_blank">
+        Survey Kepuasan Pengguna
+    </a>
+</div>
+
+.floating-buttons {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.float-btn {
+    background: linear-gradient(135deg, #198754, #0F5132);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transition: 0.3s ease;
+}
+
+.float-btn:hover {
+    transform: scale(1.05);
+}
+
+<footer>
+Website FAQ Konsultasi Pengadaan Barang/Jasa © 2026
+</footer>
+
+<script>
+function searchFAQ() {
+    var input = document.getElementById("searchInput").value.toLowerCase();
+    var details = document.querySelectorAll("details");
+
+    details.forEach(function(item) {
+        var text = item.innerText.toLowerCase();
+        if (text.includes(input)) {
+            item.style.display = "";
+        } else {
+            item.style.display = "none";
+        }
+    });
+}
+</script>
+
+</body>
+</html>
