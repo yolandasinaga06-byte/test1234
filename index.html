@@ -132,12 +132,18 @@ header img {
 .float-btn {
     background: linear-gradient(135deg, #198754, #0F5132);
     color: white;
-    padding: 12px 20px;
+    padding: 13px 20px;
     border-radius: 50px;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+.float-btn:hover {
+    transform: scale(1.05);
 }
 
 </style>
@@ -288,17 +294,20 @@ header img {
 
 </div>
 
-<a class="whatsapp-button" href="https://wa.me/6282277605339" target="_blank">
-Ajukan Jadwal Konsultasi Lebih Lanjut
-</a>
+<div class="floating-buttons">
 
-<a class="float-btn" href="LINK_GOOGLE_FORM_PERTANYAAN" target="_blank">
+    <a class="float-btn" href="https://wa.me/6282277605339" target="_blank">
+        Konsultasi via WhatsApp
+    </a>
+
+    <a class="float-btn" href="LINK_GOOGLE_FORM_PERTANYAAN" target="_blank">
         Ajukan Pertanyaan
     </a>
 
     <a class="float-btn" href="LINK_GOOGLE_FORM_SURVEY" target="_blank">
         Survey Kepuasan Pengguna
     </a>
+
 </div>
 
 <footer>
