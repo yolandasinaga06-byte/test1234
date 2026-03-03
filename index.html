@@ -149,13 +149,9 @@ footer {
 .main-section {
     margin-top: 25px;
     margin-bottom: 20px;
-    background: #0F5132;
     border: none;
-    padding: 18px 22px;
-    color: white;
-    cursor: pointer;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-    transition: 0.3s ease;
+    padding: 0;
+    background: transparent;
 }
 
 .main-section:hover {
@@ -164,15 +160,19 @@ footer {
 }
 
 .main-title {
-    background: #3E8E7E;
+    background: #4FAF9A;   /* soft green clean */
     color: white;
     font-weight: 600;
-    padding: 16px 22px;
-    border-radius: 30px;
+    padding: 18px 26px;
+    border-radius: 40px;   /* lebih oval */
     cursor: pointer;
     position: relative;
     list-style: none;
-    transition: 0.3s ease;
+    transition: 0.25s ease;
+}
+
+.main-title:hover {
+    background: #459E8A;
 }
 
 .main-title::-webkit-details-marker {
@@ -182,15 +182,11 @@ footer {
 .main-title::after {
     content: "▼";
     position: absolute;
-    right: 0;
+    right: 24px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 14px;
     transition: transform 0.3s ease;
-}
-
-.main-section[open] .main-title::after {
-    transform: translateY(-50%) rotate(180deg);
 }
 
 .section-content {
@@ -201,8 +197,8 @@ footer {
     color: #1C2B25;
 }
 
-.main-section[open] {
-    background: #145c3b;
+.main-section[open] .main-title::after {
+    transform: translateY(-50%) rotate(180deg);
 }
 
 </style>
